@@ -14,13 +14,13 @@ Once your CSV file is ready, upload it to the [Linkedin Library App](https://lin
 
 3. **Set Up Chromedriver**: Download the appropriate chromedriver executable for your system and specify its path in the script.
 
-First, find out [which version of Chrome](https://www.lifewire.com/check-version-of-chrome-5222040) you are using. Let's say you have Chrome 72.0.3626.81.
+- First, find out [which version of Chrome](https://www.lifewire.com/check-version-of-chrome-5222040) you are using. Let's say you have Chrome 72.0.3626.81.
 
-Take the Chrome version number, remove the last part, and append the result to URL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_". For example, with Chrome version 72.0.3626.81, you'd get a URL "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_72.0.3626".
+- Take the Chrome version number, remove the last part, and append the result to URL 'https://chromedriver.storage.googleapis.com/LATEST_RELEASE_'. For example, with Chrome version 72.0.3626.81, you'd get a URL 'https://chromedriver.storage.googleapis.com/LATEST_RELEASE_72.0.3626'.
 
-Use the URL created in the last step to retrieve a small file containing the version of ChromeDriver to use. For example, the above URL will get your a file containing "72.0.3626.69". (The actual number may change in the future, of course.)
+- Use the URL created in the last step to retrieve a small file containing the version of ChromeDriver to use. For example, the above URL will get your a file containing "72.0.3626.69". (The actual number may change in the future, of course.)
 
-Use the version number retrieved from the previous step to construct the URL to download ChromeDriver. With version 72.0.3626.69, the URL would be "https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/"
+- Use the version number retrieved from the previous step to construct the URL to download ChromeDriver. With version 72.0.3626.69, the URL would be "https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/"
 
 5. **Run the Script**: Execute the script from the command line, providing your LinkedIn username, password, and desired output path for the CSV file. For example:
     ```
