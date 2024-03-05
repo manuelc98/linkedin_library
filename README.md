@@ -28,4 +28,4 @@ Go to [Linkedin Library]([url](https://linkedin-library.streamlit.app/)) and upl
 ## Contributions
 
 This project is based on data scraping and may return incomplete data or you may encounter bugs.
-Happy to hear from your feedbacks or ideas to improve the project, feel free to reach out on Linkedin (https://www.linkedin.com/in/manuel-cellier-821325166/).
+Happy to hear from your feedbacks or ideas to improve the project, feel free to reach out on [Linkedin]([url](https://www.linkedin.com/in/manuel-cellier-821325166/)https://www.linkedin.com/in/manuel-cellier-821325166/).
