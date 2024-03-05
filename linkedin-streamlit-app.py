@@ -7,6 +7,7 @@ header1, header2= st.columns([1,9])
 header1.image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png")
 header2.title("Linkedin Library")
 st.success("###### Welcome to your library", icon = "👋")
+st.info("Got feedbacks? Happy to [connect](https://www.linkedin.com/in/manuel-cellier-821325166/)", icon ="ℹ️")
 
 # Scrape the data
 st.markdown("## 🛠️ Retrieve your Linkedin saved items")
