@@ -18,16 +18,8 @@ st.markdown("## 🔍 Upload your data")
 uploaded_file = st.file_uploader("Choose a file")
 
 if uploaded_file is not None:
-    progress_bar = st.progress(0)  # Create a progress bar
     library_content = pd.read_csv(uploaded_file)
     library_content['optional_post_pic_link'] = library_content['optional_post_pic_link'].fillna("None")
-    
-    # Display progress bar while loading the data
-    with st.spinner('Loading data...'):
-        for percent_complete in range(100):
-            progress_bar.progress(percent_complete + 1)
-            time.sleep(0.001)
-    
     st.success('Data loaded successfully!')
     
     # Display data preview
