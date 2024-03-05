@@ -6,16 +6,18 @@ import time
 header1, header2= st.columns([1,9])
 header1.image("https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png")
 header2.title("Linkedin Library")
-st.success("###### Welcome to your library", icon = "👋")
 st.info("Got feedbacks? Happy to [connect](https://www.linkedin.com/in/manuel-cellier-821325166/)", icon ="ℹ️")
 
 # Scrape the data
-st.markdown("## 🛠️ Retrieve your Linkedin saved items")
+st.markdown("### 🛠️ Retrieve your Linkedin saved items")
 st.markdown("👉 Follow this [step by step guide](https://github.com/manuelc98/linkedin_library/tree/main)")
 
 # Read the data
-st.markdown("## 🔍 Upload your data")
+st.markdown("### 🔍 Upload your data")
 uploaded_file = st.file_uploader("Choose a file")
+
+
+st.markdown("### 🎉 Enjoy your library")
 
 if uploaded_file is not None:
     library_content = pd.read_csv(uploaded_file)
@@ -41,8 +43,6 @@ if uploaded_file is not None:
         st.write(top_3_authors)
 
         # Consume your data
-        st.markdown("# 🎉 Enjoy your library")
-
         with st.expander("Expand to see all your posts or search below"):
             for index, row in library_content.iterrows():
                 with st.container():
