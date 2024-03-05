@@ -26,7 +26,7 @@ if uploaded_file is not None:
     with st.spinner('Loading data...'):
         for percent_complete in range(100):
             progress_bar.progress(percent_complete + 1)
-            time.sleep(0.05)
+            time.sleep(0.02)
     
     st.success('Data loaded successfully!')
     
