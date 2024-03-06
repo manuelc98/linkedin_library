@@ -3,6 +3,8 @@
 This Python script allows you to scrape your saved items from LinkedIn and save them to a CSV file. The intended use is to facilitate access to your saved items, making it easier to filter and access the content compared to LinkedIn's interface, where items are often buried in infinite scrolls.
 Once your CSV file is ready, upload it to the [Linkedin Library App](https://linkedin-library.streamlit.app/) and enjoy your content! 
 
+[<img width="1098" alt="Capture d’écran 2024-03-06 à 18 16 13" src="https://github.com/manuelc98/linkedin_library/assets/46032930/560956b3-a6b3-472c-b4a9-6d54f6ccfd19">](https://youtu.be/AuTODUhtyC8)
+
 ## How to Use
 
 1. **Clone the Repository**: Clone this repository to your local machine.
